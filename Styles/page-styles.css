@@ -196,6 +196,38 @@ nav {
 }
 /* Online games section ends here */
 
+/* Play instantly section starts here */
+.play-instant-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto 120px;
+}
+
+.text-area-section-title {
+  text-align: end;
+}
+
+.text-area-section-description {
+  max-width: 350px;
+}
+
+.play-instantly-img > img {
+  height: 90%;
+  margin-left: 90px;
+}
+
+.play-instantly-badge {
+  border-radius: 8px;
+  width: 340px;
+  padding: 0px;
+  position: relative;
+  bottom: 250px;
+  /* border: 10px solid #fff; */
+}
+/* Play instantly section ends here */
+
 /* Media Query starts here */
 
 /* Mobile device starts here */
