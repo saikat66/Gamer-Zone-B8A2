@@ -212,27 +212,27 @@ nav {
   .logo-container {
     padding-bottom: 60px;
   }
-}
 
-/* Banner starts */
-.banner {
-  display: flex;
-  flex-direction: column-reverse;
-}
+  /* Banner starts */
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-.banner-container {
-  padding: 35px 20px 0 20px;
-  background-image: url("../images/Group 14.png");
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-size: contain;
-}
+  .banner-container {
+    padding: 35px 20px 0 20px;
+    background-image: url("../images/Group 14.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+  }
 
-.banner-text-area {
-  padding: 140px 0;
-  margin: 0 auto;
+  .banner-text-area {
+    padding: 140px 0;
+    margin: 0 auto;
+  }
+  /* Banner ends*/
 }
-/* Banner ends*/
 
 /* Tablet device starts here */
 
