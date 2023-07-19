@@ -17,6 +17,20 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button-primary {
+  padding: 21px 40px;
+  border: none;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
 /* Common style ends here */
 
 /* Nav style starts here */
@@ -75,6 +89,70 @@ nav {
   padding-right: 16px;
 }
 /* Nav style ends here */
+
+/* Banner section starts here */
+.banner-container {
+  padding: 35px 20px 0 20px;
+  background-image: url("../images/Group 14.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}
+
+.banner {
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.banner-text-area {
+  padding: 150px 0;
+}
+
+.text-area-subtitle {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text-area-title {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.color-gradient {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-area-description {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.button-area {
+  display: flex;
+  gap: 24px;
+  padding-top: 40px;
+}
+
+.button-secondary {
+  padding: 21px 40px;
+  border: none;
+  border-radius: 48px;
+  background: #4ec5f7;
+}
+
+/* Banner section ends here */
 
 /* Media Query starts here */
 
