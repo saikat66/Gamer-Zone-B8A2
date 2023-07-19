@@ -244,8 +244,12 @@ nav {
 /* Footer section starts here */
 
 .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
-  height: 60vh;
+  height: 600px;
   background: #0b0223;
 }
 
@@ -254,7 +258,6 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-top: 100px;
 }
 
 .white {
@@ -409,6 +412,12 @@ nav {
     margin: 0 auto; */
   }
   /* Games Card section ends */
+
+  /* Footer starts from here */
+  .footer-container {
+    display: none;
+  }
+  /* Footer starts from here */
 }
 /* Mobile device ends here */
 
