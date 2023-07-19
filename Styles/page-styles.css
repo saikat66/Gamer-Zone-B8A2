@@ -228,6 +228,86 @@ nav {
 }
 /* Play instantly section ends here */
 
+/* Games Card section starts */
+.games-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* justify-self: center; */
+  /* align-items: center; */
+  max-width: 1400px;
+  margin: 0 auto;
+}
+/* Games Card section ends */
+
+/* Footer section starts here */
+
+.footer-container {
+  margin-top: 100px;
+  height: 60vh;
+  background: #0b0223;
+}
+
+.footer-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 100px;
+}
+
+.white {
+  color: white;
+}
+
+.footer-logo-image {
+  object-fit: contain;
+}
+
+.our-story-area {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 20px;
+}
+
+.our-story-area > p {
+  cursor: pointer;
+}
+
+.social-icon-area {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.fa-brands {
+  cursor: pointer;
+}
+
+.privacy-policy-area {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.privacy-policy-area > small {
+  cursor: pointer;
+}
+
+.copyright-area {
+  color: grey;
+  text-align: center;
+}
+
+/* Footer section ends here */
+
 /* Media Query starts here */
 
 /* Mobile device starts here */
@@ -316,6 +396,19 @@ nav {
     bottom: 150px;
   }
   /* Play instantly section starts here */
+
+  /* Games Card section starts */
+  .games-card-container {
+    display: none;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto; */
+  }
+  /* Games Card section ends */
 }
 /* Mobile device ends here */
 
@@ -403,6 +496,19 @@ nav {
     bottom: 150px;
   }
   /* Play instantly section starts here */
+
+  /* Games Card section starts */
+  .games-card-container {
+    display: none;
+    /* grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto; */
+  }
+  /* Games Card section ends */
 }
 
 /* Tablet device starts here */
