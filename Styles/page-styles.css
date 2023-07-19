@@ -1,0 +1,73 @@
+/* Global css style starts here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Global css style ends here  */
+
+/* Common style starts here */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.logo-title-capital-letter {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Common style ends here */
+
+/* Nav style starts here */
+nav {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 240px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 20px;
+  max-width: 50%;
+  align-items: center;
+}
+.logo-title {
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.follow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 18px 24px;
+}
+
+.menu-item {
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 24px;
+}
+
+.social-icon > .fa-brands {
+  font-size: 24px;
+}
+
+.social-icon > .fa-youtube {
+  padding-right: 16px;
+}
+/* Nav style ends here */
