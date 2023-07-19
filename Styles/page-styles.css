@@ -158,6 +158,7 @@ nav {
 
 /* Mobile device starts here */
 @media screen and (max-width: 576px) {
+  /* Nav Starts */
   .nav-container,
   .menu-container {
     display: flex;
@@ -172,6 +173,27 @@ nav {
   .logo-container {
     padding-bottom: 60px;
   }
+  /* Nav ends */
+
+  /* Banner starts */
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .banner-container {
+    padding: 35px 20px 0 20px;
+    background-image: url("../images/Group 14.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+  }
+
+  .banner-text-area {
+    padding: 60px 0;
+    margin: 0 auto;
+  }
+  /* Banner ends*/
 }
 /* Mobile device ends here */
 
@@ -191,6 +213,27 @@ nav {
     padding-bottom: 60px;
   }
 }
+
+/* Banner starts */
+.banner {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.banner-container {
+  padding: 35px 20px 0 20px;
+  background-image: url("../images/Group 14.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+}
+
+.banner-text-area {
+  padding: 140px 0;
+  margin: 0 auto;
+}
+/* Banner ends*/
+
 /* Tablet device starts here */
 
 /* Media Query ends here */
