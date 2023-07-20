@@ -532,7 +532,60 @@ nav {
 
   /* Footer starts from here */
   .footer-container {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: #0b0223;
+  }
+
+  .our-story-area {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+  }
+
+  .our-story-area > p {
+    cursor: pointer;
+  }
+
+  .social-icon-area {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .fa-brands {
+    cursor: pointer;
+  }
+
+  .privacy-policy-area {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .privacy-policy-area > small {
+    cursor: pointer;
+  }
+
+  .copyright-area {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+  }
+
+  #copyright-wrap::before {
+    content: "\a";
+    white-space: pre;
   }
   /* Footer starts from here */
 }
