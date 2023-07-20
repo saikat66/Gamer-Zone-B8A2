@@ -191,6 +191,13 @@ nav {
   padding-top: 30px;
 }
 
+.online-games-special-card:hover {
+  opacity: 0.9;
+  background-color: #000;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
 .card-item-description {
   color: #534c64;
   font-size: 20px;
@@ -350,6 +357,8 @@ nav {
 }
 
 .footer-logo-image {
+  width: 50px;
+  height: 40px;
   object-fit: contain;
 }
 
